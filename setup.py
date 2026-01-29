@@ -10,7 +10,7 @@ setup(
     description="Python tool to control Thermaltake LEDFanBox fan speed and RGB lighting",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Brad (@BikeGuy07)",
+    author="Brad Mills",
     author_email="",
     url="https://github.com/yourusername/thermaltake-ledfanbox",
     license="Apache License 2.0",
