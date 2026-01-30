@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 Type=simple
-User=flash
-ExecStart=/usr/bin/python3 /home/flash/thermaltake_ledfanbox.py --speed 50 --rgb 0 255 0 --mode static
+User=brad
+ExecStart=/usr/bin/python3 /home/brad/clawd/thermaltake_ledfanbox.py --speed 50 --rgb 0 255 0 --mode static
 Restart=on-failure
 RestartSec=5
 
