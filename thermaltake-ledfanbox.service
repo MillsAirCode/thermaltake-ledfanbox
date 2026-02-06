@@ -4,8 +4,9 @@ After=network.target
 
 [Service]
 Type=simple
+# Change this to your username
 User=brad
-ExecStart=/usr/bin/python3 /home/brad/clawd/thermaltake_ledfanbox.py --speed 50 --rgb 0 255 0 --mode static
+ExecStart=/usr/local/bin/thermaltake-ledfanbox --speed 50 --rgb 0 255 0 --mode static
 Restart=on-failure
 RestartSec=5
 

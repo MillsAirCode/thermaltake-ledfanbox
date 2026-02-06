@@ -10,9 +10,8 @@ setup(
     description="Python tool to control Thermaltake LEDFanBox fan speed and RGB lighting",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    author="Brad Mills",
-    author_email="",
-    url="https://github.com/yourusername/thermaltake-ledfanbox",
+    author="Brad Mills (@BikeGuy07)",
+    url="https://github.com/MillsAirCode/thermaltake-ledfanbox",
     license="Apache License 2.0",
     python_requires=">=3.8",
     packages=find_packages(),
@@ -41,7 +40,7 @@ setup(
     ],
     keywords="thermaltake ledfanbox fan control rgb hidapi",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/thermaltake-ledfanbox/issues",
-        "Source": "https://github.com/yourusername/thermaltake-ledfanbox",
+        "Bug Reports": "https://github.com/MillsAirCode/thermaltake-ledfanbox/issues",
+        "Source": "https://github.com/MillsAirCode/thermaltake-ledfanbox",
     },
 )
